@@ -3,7 +3,7 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "env": {
-    "VITE_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "VITE_SUPABASE_URL": "@supabase_url"
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJvbWN1anh2d2xkemF3cXFtcmxmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NDUzNDQsImV4cCI6MjA5MjAyMTM0NH0.TOyYvLgxopF8yc7ujLvyt64VhJt37RfRWVSshFo6-HA",
+    "VITE_SUPABASE_URL": "https://bomcujxvwldzawqqmrlf.supabase.co"
   }
 }
