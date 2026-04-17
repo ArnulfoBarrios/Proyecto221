@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PatientVoice Debug</title>
+  <script>
+    window.addEventListener('load', () => {
+      const root = document.getElementById('root');
+      const status = document.getElementById('status');
+      
+      if (root) {
+        status.textContent = 'Root element found: YES ✓';
+        status.style.color = 'green';
+        console.log('Root element found');
+        console.log('Root HTML:', root.innerHTML);
+        console.log('Root classes:', root.className);
+        console.log('Root styles:', window.getComputedStyle(root));
+      } else {
+        status.textContent = 'Root element found: NO ✗';
+        status.style.color = 'red';
+      }
+    });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #0F0720;
+      color: white;
+    }
+    #status {
+      font-size: 18px;
+      padding: 10px;
+      background: #1a1a2e;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>PatientVoice Debug Info</h1>
+  <div id="status">Checking...</div>
+  <hr>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
