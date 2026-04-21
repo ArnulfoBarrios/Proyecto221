@@ -3,7 +3,7 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "env": {
-    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxdGF0ZXhkYWF0dmN5aGh2ZmFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNDExMjksImV4cCI6MjA5MTkxNzEyOX0.nKBTTv9PEGua7_d3SF9B8xj4aXyiWf1Lr5n3MaUHFDs,
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxdGF0ZXhkYWF0dmN5aGh2ZmFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNDExMjksImV4cCI6MjA5MTkxNzEyOX0.nKBTTv9PEGua7_d3SF9B8xj4aXyiWf1Lr5n3MaUHFDs"
     "VITE_SUPABASE_URL": "https://cqtatexdaatvcyhhvfao.supabase.co/rest/v1/"
   }
 }
